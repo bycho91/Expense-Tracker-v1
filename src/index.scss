@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;700&display=swap");
+
+$font: "Josefin Sans", sans-serif;
+
+#root,
+html,
+body {
+  margin: 0;
+  height: 100%;
+}
+
+body {
+  font-family: $font;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(./assets/background.jpg);
+  background-size: cover;
+  overflow: hidden;
+  color: white;
+  padding: 20px;
+}
